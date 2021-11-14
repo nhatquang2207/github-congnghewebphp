@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author">
-    <link href="/css/font-family.css" rel="stylesheet">
+    <link href="./css/font-family.css" rel="stylesheet">
 
     <title>Ultimate laptop</title>
 
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <script src="/js/jquery-3.6.0.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="/css/fontawesome.css">
-    <link rel="stylesheet" href="/css/layout.css">
-    <link rel="stylesheet" href="/css/owl.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/owl.css">
 
 </head>
 
@@ -370,7 +370,7 @@
                 <div class="col-md-3">
                     <a href="">
                         <div class="product-item" style="height: 300px;">
-                                <img src="/images/product_01.jpg" alt="">
+                                <img src="./images/product_01.jpg" alt="">
                                 <div class="down-content">
                                     <h6>Macbook Pro Pro Pro Pro Pro Pro</h6>
                                     <h5>11,259,000 VNĐ</h5>
@@ -385,7 +385,7 @@
                 <div class="col-md-3">
                     <a href="">
                         <div class="product-item" style="height: 300px;">
-                                <img src="/images/product_01.jpg" alt="">
+                                <img src="./images/product_01.jpg" alt="">
                                 <div class="down-content">
                                     <h6>Macbook Pro</h6>
                                     <h5>11,259,000 VNĐ</h5>
@@ -400,7 +400,7 @@
                 <div class="col-md-3">
                     <a href="">
                         <div class="product-item" style="height: 300px;">
-                                <img src="/images/product_01.jpg" alt="">
+                                <img src="./images/product_01.jpg" alt="">
                                 <div class="down-content">
                                     <h6>Macbook Pro Pro Pro Pro Pro Pro</h6>
                                     <h5>11,259,000 VNĐ</h5>
@@ -415,7 +415,7 @@
                 <div class="col-md-3">
                     <a href="">
                         <div class="product-item" style="height: 300px;">
-                                <img src="/images/product_01.jpg" alt="">
+                                <img src="./images/product_01.jpg" alt="">
                                 <div class="down-content">
                                     <h6>Macbook Pro Pro Pro Pro Pro Pro</h6>
                                     <h5>11,259,000 VNĐ</h5>
@@ -430,7 +430,7 @@
                 <div class="col-md-3">
                     <a href="">
                         <div class="product-item" style="height: 300px;">
-                                <img src="/images/product_01.jpg" alt="">
+                                <img src="./images/product_01.jpg" alt="">
                                 <div class="down-content">
                                     <h6>Macbook Pro Pro Pro Pro Pro Pro</h6>
                                     <h5>11,259,000 VNĐ</h5>
@@ -445,7 +445,7 @@
                 <div class="col-md-3">
                     <a href="">
                         <div class="product-item" style="height: 300px;">
-                                <img src="/images/product_01.jpg" alt="">
+                                <img src="./images/product_01.jpg" alt="">
                                 <div class="down-content">
                                     <h6>Macbook Pro Pro Pro Pro Pro Pro</h6>
                                     <h5>11,259,000 VNĐ</h5>
@@ -460,7 +460,7 @@
                 <div class="col-md-3">
                     <a href="">
                         <div class="product-item" style="height: 300px;">
-                                <img src="/images/product_01.jpg" alt="">
+                                <img src="./images/product_01.jpg" alt="">
                                 <div class="down-content">
                                     <h6>Macbook Pro Pro Pro Pro Pro Pro</h6>
                                     <h5>11,259,000 VNĐ</h5>
@@ -475,7 +475,7 @@
                 <div class="col-md-3">
                     <a href="">
                         <div class="product-item" style="height: 300px;">
-                                <img src="/images/product_01.jpg" alt="">
+                                <img src="./images/product_01.jpg" alt="">
                                 <div class="down-content">
                                     <h6>Macbook Pro Pro Pro Pro Pro Pro</h6>
                                     <h5>11,259,000 VNĐ</h5>
@@ -490,7 +490,7 @@
                 <div class="col-md-3">
                     <a href="">
                         <div class="product-item" style="height: 300px;">
-                                <img src="/images/product_01.jpg" alt="">
+                                <img src="./images/product_01.jpg" alt="">
                                 <div class="down-content">
                                     <h6>Macbook Pro Pro Pro Pro Pro Pro</h6>
                                     <h5>11,259,000 VNĐ</h5>
@@ -514,7 +514,7 @@
                 <div class="col-md-3">
                     <a href="">
                         <div class="product-item" style="height: 300px;">
-                                <img src="/images/product_01.jpg" alt="">
+                                <img src="./images/product_01.jpg" alt="">
                                 <div class="down-content">
                                     <h6>Macbook Pro Pro Pro Pro Pro Pro</h6>
                                     <h4>10,159,000 VNĐ</h4>
@@ -577,7 +577,7 @@
                     <div class="inner-content">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="/images/dathongbaobocongthuong.png" height="150px" width="310" alt="">
+                                <img src="./images/dathongbaobocongthuong.png" height="150px" width="310" alt="">
                             </div>
                             <div class="col-md-4">
                                 <iframe width="504" height="283" src="https://www.youtube.com/embed/J2X5mJ3HDYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -608,11 +608,11 @@
         </div>
     </footer>
 
-    <script src="/js/layout.js"></script>
-    <script src="/js/owl.js"></script>
-    <script src="/js/slick.js"></script>
-    <script src="/js/isotope.js"></script>
-    <script src="/js/accordions.js"></script>
+    <script src="./js/layout.js"></script>
+    <script src="./js/owl.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/isotope.js"></script>
+    <script src="./js/accordions.js"></script>
 
 
     <script language="text/Javascript">
