@@ -12,5 +12,5 @@ if (!$connect) {
     die("Không kết nối :" . mysqli_connect_error());
     exit();
 }
-echo "Khi kết nối thành công sẽ tiếp tục dòng code bên dưới đây."
+
 ?>

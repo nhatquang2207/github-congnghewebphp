@@ -386,7 +386,7 @@
                         // Kết nối sql
               
                         // Đếm số đong trả về trong sql.
-                        $result = mysqli_query($conn, $sql);
+                        $result = mysqli_query($connect, $sql);
                         if ($result->num_rows > 0) {
                           while ($row = $result->fetch_assoc()) {
                             echo ' <div class="col-md-3">
