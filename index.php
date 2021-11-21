@@ -85,13 +85,13 @@
                     <marquee behavior="" direction="Left" style="color: #f33f3f; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px; ">Bring you the best choice </marquee>
                 </div>
 
-                <form action="" method="get" class="form-inline">
+                <form action="./search.php" method="get" class="form-inline">
                     <input type="text"  name="txtSearch" placeholder="Tìm kiếm" class="form-control mr-lg-2">
                     <button class="btn btn-success" name="btnSearch" type="submit" value="search">Search</button>
                 </form>
             </div>
         </nav>
-    </header>
+    </header
 
     <!-- Modal đăng nhập -->
     <div class="row">
@@ -381,21 +381,7 @@
                         </div>
                     </a>
                 </div>
-
-                <div class="col-md-3">
-                    <a href="">
-                        <div class="product-item" style="height: 300px;">
-                                <img src="./images/product_01.jpg" alt="">
-                                <div class="down-content">
-                                    <h6>Macbook Pro</h6>
-                                    <h5>11,259,000 VNĐ</h5>
-                                    <h4>10,159,000 VNĐ</h4>
-                                    <i class="fa fa-star"></i>
-                                    <span>Chi tiết</span>
-                                </div>
-                        </div>
-                    </a>
-                </div>
+                               
                 
                 <div class="col-md-3">
                     <a href="">
