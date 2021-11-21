@@ -85,7 +85,7 @@
                     <marquee behavior="" direction="Left" style="color: #f33f3f; font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px; ">Bring you the best choice </marquee>
                 </div>
 
-                <form action="" method="request" class="form-inline">
+                <form action="" method="get" class="form-inline">
                     <input type="text"  name="txtSearch" placeholder="Tìm kiếm" class="form-control mr-lg-2">
                     <button class="btn btn-success" name="btnSearch" type="submit" value="search">Search</button>
                 </form>
