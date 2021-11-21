@@ -87,7 +87,7 @@
 
                 <form action="./search.php" method="get" class="form-inline">
                     <input type="text"  name="txtSearch" placeholder="Tìm kiếm" class="form-control mr-lg-2">
-                    <button class="btn btn-success" name="btnSearch" type="submit" value="search">Search</button>
+                    <input class="btn btn-success" name="btnSearch" type="submit" value="search">
                 </form>
             </div>
         </nav>
