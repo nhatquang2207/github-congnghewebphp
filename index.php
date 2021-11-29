@@ -1,3 +1,7 @@
+<?php
+    include ("login.php");
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,8 +22,9 @@
     <link rel="stylesheet" href="./css/fontawesome.css">
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/owl.css">
-
+    <script src="./js/dangnhap.js"></script>
 </head>
+
 
 <body>
     <div id="preloader">
@@ -55,10 +60,10 @@
                             <a class="nav-link" href="#">Về chúng tôi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalDN">Đăng nhập
+                            <a class="nav-link" href="pageDN.php" id="DN">Đăng nhập
                                 <i class="fa fa-user"></i>
                             </a>
-                        </li>
+                        </li>   
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalcart">Giỏ hàng
                                 <i class="fa fa-cart-arrow-down"></i>
@@ -91,187 +96,7 @@
                 </form>
             </div>
         </nav>
-    </header
-
-    <!-- Modal đăng nhập -->
-    <div class="row">
-        <div class="col-12">
-            <div class="modal fade" id="modalDN">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content" >
-                        <form action="">
-                            <div class="modal-header">
-                                <h3 class="modal-title">Đăng nhập</h3>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-        
-                            <div class="modal-body">
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-1"></div>
-                                        <div class="col-5">
-                                            <label for="txtusername"><p>Tên đăng nhập/user name: </p></label>
-                                        </div>
-                                        <div class="col-5">
-                                            <input type="text" class="form-control" name="txtusername" id="txtusername">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-1"></div>
-                                        <div class="col-5">
-                                            <label for="txtpassword"><p>Mật khẩu/user name: </p></label>
-                                        </div>
-                                        <div class="col-5">
-                                            <input type="password" class="form-control" name="txtpassword" id="txtpassword">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-2"></div>
-                                        <div class="col-5">
-                                            <label for="checkboxremember">
-                                                <input type="checkbox" id="checkboxremember">&nbsp;Remember me
-                                            </label>
-                                        </div>
-                                        <div class="col-5">
-                                            <a href="">Forgot password?</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-info" value="đăng nhập" name="btnSubmit" data-dismiss="modal" data-toggle="modal">Đăng nhập</button>
-                                <button type="button" class="btn btn-info" value="đăng ký" name="btn" data-dismiss="modal" data-toggle="modal" data-target="#modalDK">Đăng ký</button>
-                                <button type="button" class="btn btn-info" value="cancel" data-dismiss="modal">Cancel</button>
-
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal đăng ký  -->
-    <div class="row">
-        <div class="col-12">
-            <div class="modal fade" id="modalDK">
-                <div class="modal-dialog modal-lg modal-dialog-centered">
-                    <div class="modal-content" >
-                        <form action="">
-                            <div class="modal-header">
-                                <h3 class="modal-title">Đăng ký</h3>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-        
-                            <div class="modal-body">
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-1"></div>
-                                        <div class="col-5">
-                                            <label for="txtusernameDK"><p>Nhập tên đăng nhập/user name: </p></label>
-                                        </div>
-                                        <div class="col-5">
-                                            <input type="text" class="form-control" name="txtusernameDK" id="txtusernameDK">
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-1"></div>
-                                        <div class="col-5">
-                                            <label for="txtphoneDK"><p>Nhập số điện thoại: </p></label>
-                                        </div>
-                                        <div class="col-5">
-                                            <input type="text" class="form-control" name="txtphoneDK" id="txtphoneDK">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-1"></div>
-                                        <div class="col-5">
-                                            <label for="txtemailDK"><p>Nhập email: </p></label>
-                                        </div>
-                                        <div class="col-5">
-                                            <input type="email" class="form-control" name="txtemailDK" id="txtemailDK">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-1"></div>
-                                        <div class="col-5">
-                                            <p>Nhập giới tính: </p>
-                                        </div>
-                                        <div class="col-5 form-control" style="border: none;">
-                                            <label for="checkmale" style="margin: 0px 30px;"><input type="radio" name="txtsexDK" checked id="checkmale">&nbsp;Nam</label>
-                                            <label for="checkfemale"><input type="radio" name="txtsexDK" id="checkfemale">&nbsp; Nữ</label>
-                                        </div>
-            
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-1"></div>
-                                        <div class="col-5">
-                                            <label for="txtbirthDK"><p>Nhập ngày sinh: </p></label>
-                                        </div>
-                                        <div class="col-5">
-                                            <input type="date" class="form-control" name="txtbirthDK" id="txtbirthDK">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-1"></div>
-                                        <div class="col-5">
-                                            <label for="txtpasswordDK"><p>Nhập mật khẩu: </p></label>
-                                        </div>
-                                        <div class="col-5">
-                                            <input type="text" class="form-control" name="txtpasswordDK" id="txtpasswordDK">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-1"></div>
-                                        <div class="col-5">
-                                            <label for="txtcheckpasswordDK"><p>Nhập lại mật khẩu: </p></label>
-                                        </div>
-                                        <div class="col-5">
-                                            <input type="text" class="form-control" name="txtcheckpasswordDK" id="txtcheckpasswordDK">
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="modal-footer">
-                                <p>Đã có tài khoản?</p>
-                                <button type="button" style="float: left" class="btn btn-link" value="đăng nhập" name="btn" data-dismiss="modal" data-toggle="modal" data-target="#modalDN">Đăng nhập</button>
-                                <button type="button" class="btn btn-info" value="đăng ký" name="btnSubmit" data-dismiss="modal" data-toggle="modal" data-target="#modalDK">Đăng ký</button>
-                                <button type="button" class="btn btn-info" value="cancel" data-dismiss="modal">Cancel</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</header>
 
     <div class="row">
         <div class="col-12">
@@ -611,6 +436,26 @@
             }
         }
     </script>
-
+    <?php
+    if (isset($_POST['add']))
+       {    echo "<script> alert('thangcong')</script>";
+            $user= $_POST['txtUser'];
+            $sdt= $_POST['txtSDT'];
+            $email= $_POST['txtEmail'];
+            $sex= $_POST['txtSex'];
+            $date= $_POST['txtDate'];
+            $pass= $_POST['txtPass'];
+  
+             //$PASS = md5($pass);
+            if ($connect->query("INSERT INTO dangki (User ,sodienthoai ,mail ,gioitinh ,ngaysinh ,matkhau)VALUES (' $user', '$sdt', '$email', '$sex', '$date', '$pass')"))
+              {
+              echo  "<script> alert('thangcong')</script>";
+               }
+          else
+            {
+                echo  "<script> alert('that bai')</script>";
+            }
+       }
+    ?>
 </body>
 </html>
